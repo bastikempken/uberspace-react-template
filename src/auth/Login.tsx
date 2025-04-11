@@ -23,7 +23,7 @@ function Login() {
 
       if (isMatch) {
         const accessToken = isMatch[1];
-        const response = await fetch('/api/v1/auth/login', {
+        const response = await fetch('/api/auth/login', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
