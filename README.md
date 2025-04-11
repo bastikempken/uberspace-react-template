@@ -12,7 +12,6 @@
 - add domain: `uberspace web domain add domain_name`
 - set domain to apache: `uberspace web backend set domain_name --apache`
 - setup Apache with `.htaccess`
-
 ```
 RewriteEngine On RewriteBase /
 RewriteRule ^index\.html$ - [L]
