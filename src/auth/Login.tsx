@@ -44,7 +44,7 @@ function Login() {
     <div className="flex justify-center items-center text-center min-h-screen">
       <Button onClick={handleClick}>
         <div className="flex gap-3">
-          <img src="/src/assets/google-icon.svg" alt="google icon" />
+          <img src="/google-icon.svg" alt="google icon" />
           <p>Login with Google</p>
         </div>
       </Button>
